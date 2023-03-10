@@ -12,8 +12,9 @@ import {fadeIn} from '../variants';
 
 const Banner = () => {
   return (
-  <section
-   className='min-h-[85vh] lg:min-h-[78vh] flex items-center'
+  <div
+   className='min-h-[80vh] lg:min-h-[70vh] flex items-center'
+   /**className='min-h-[85vh] lg:min-h-[78vh] flex items-center' */
     id='home'
     >
     <div className='container mx-auto'>
@@ -57,8 +58,9 @@ const Banner = () => {
           whileInView={'show'} 
           viewport={{once:false, amount:0.7}}
           className='mb-8 max-auto lg:mx-0'>
-              Mwget -c –recursive --no-clobber--page-requisites --html-extension --convert
-              restrict-file-names=windows –recursive --no-clobber--page.
+            I am passionate about the technological ecosystem, I have excellent-driven ability, great interpersonal skills 
+            and solid track records of knowledge application in achieving corporate goals as
+             well as a vision to use his neat codes to build a sustainable world.
           </motion.p>
 
           <motion.div variants={fadeIn('up', 0.6)} 
@@ -98,7 +100,7 @@ const Banner = () => {
         </motion.div>
       </div>
     </div>
-  </section>
+  </div>
   );
 };
 

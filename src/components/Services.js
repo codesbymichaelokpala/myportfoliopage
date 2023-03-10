@@ -11,32 +11,32 @@ const services =[
   {
     name: 'UI/UX Design',
     description:
-    'Mwget -c –recursive --no-clobber--page-requisites --html-extension --convert restrict-file-names=windows –recursive --no-clobber',
+    'Our role is to make a product or service usable, enjoyable, and accessible to our clients and their consumers at large. ',
     link: 'Learn more'
   },
   {
     name: 'Development',
     description:
-    'Mwget -c –recursive --no-clobber--page-requisites --html-extension --convert restrict-file-names=windows –recursive --no-clobber',
+    'We are the creative, brainstorming masterminds behind your organisation structures and computer programs of all sorts. ',
     link: 'Learn more'
   },
   {
     name: 'Digital Marketing',
     description:
-    'Mwget -c –recursive --no-clobber--page-requisites --html-extension --convert restrict-file-names=windows –recursive --no-clobber',
+    'We create, post, monitor contents and handle social interactions and campaigns that drive brand awareness & lead generation through digital channels, ',
     link: 'Learn more'
   },
   {
     name: 'Product Branding',
     description:
-    'Mwget -c –recursive --no-clobber--page-requisites --html-extension --convert restrict-file-names=windows –recursive --no-clobber',
+    'With combination of design, messaging, experience, and tactics we uniquely identify your product and differentiate it from the competition',
     link: 'Learn more'
   }
 ]
 
 const Services = () => {
   return (
-    <div className='section' id='services'>
+    <section className='section' id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/**text */}
@@ -49,7 +49,7 @@ const Services = () => {
           mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a Freelance Front-end Developer with over 5 years of experience. 
+              I take pride in my work, and hold to hight esteem quality delivery.
             </h3>
             <button className='btn btn-sm'>See my work</button>
           </motion.div>
@@ -87,7 +87,7 @@ const Services = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 };
 

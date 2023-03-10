@@ -38,8 +38,8 @@ const About = () => {
               experience.
             </h3>
             <p className='mb-6'>
-              Lecursive --no-clobber-- hg page-requisites --html-extension --convert
-              restrict-file-names=windows –recursive --no-clobber--page.
+            Mobile Application development, Web design, Emotional Intelligence, Attention to Details, 
+            Googling, Public Speaking, Time Management, Digital Literacy, Team Spirit.
             </p>
             {/**stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
