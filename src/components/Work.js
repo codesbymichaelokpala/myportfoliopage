@@ -30,7 +30,10 @@ const Work = () => {
               experience. I'm a Freelance Front-end Developer with over 5 years of
               experience.
               </p>
+              <a href='https://github.com/codesbymichaelokpala?tab=repositories'>
               <button className='btn btn-sm'>View all projects</button>
+              </a>
+              
             </div>
             {/**images */}
             <div className='group relative overflow-hidden border-2 border-white/50 
